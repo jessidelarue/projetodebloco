@@ -137,7 +137,7 @@ def function():
     Já na coluna Stay_In_Current_City_Years, apenas substituímos a string "4+" pelo valor inteiro 4 e converteremos todos os dados da coluna para o formato int.
     Também removemos as colunas Product_Category_2 e Product_Category_3.''')
     st.write('O resultado final foi o dataframe abaixo:')
-    new_data = pd.read_csv('/work/encoded_black_friday.csv')
+    new_data = pd.read_csv('encoded_black_friday.csv')
     new_df = pd.DataFrame(new_data)
     st.write(new_df)
 
