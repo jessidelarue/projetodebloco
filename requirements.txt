@@ -1,8 +1,8 @@
-pandas
 matplotlib
-seaborn
+matplotlib-inline
+numpy
+pandas
 scikit-learn
 scipy
-numpy
+seaborn
 streamlit
-PIL
