@@ -18,7 +18,7 @@ def function():
     Com isso, pretende-se mensurar o valor da compra de um cliente com base em um determinado conjunto de características.''')
     
     st.subheader('Dataset original')
-    data = pd.read_csv('/work/black_friday_sales.csv')
+    data = pd.read_csv('black_friday_sales.csv')
     df = pd.DataFrame(data)
     st.write(df)
 
@@ -165,7 +165,7 @@ def function():
 
     st.title('Regressão Linear - Métricas de Avaliação')
     st.write('Após a aplicação do modelo de Regressão Linear, foram calculadas as seguintes métricas de avaliação:')
-    metrics_data = pd.read_csv('/work/metrics.csv')
+    metrics_data = pd.read_csv('metrics.csv')
     metrics_df = pd.DataFrame(metrics_data)
     st.write(metrics_df)
     
